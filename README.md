@@ -8,5 +8,5 @@
 
 ---
 Modules:
-- [chr-core](/chr-core) *(core library content)*
-- [chr-mem](/chr-mem) *(memory hacking tools)*
+- [chr-core](https://github.com/ChronesIO/chr-core) *(core library content)*
+- [chr-mem](https://github.com/ChronesIO/chr-mem) *(memory hacking tools)*
