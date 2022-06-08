@@ -1,0 +1,6 @@
+[submodule "chr-core"]
+	path = chr-core
+	url = https://github.com/ChronesIO/chr-core
+[submodule "chr-mem"]
+	path = chr-mem
+	url = https://github.com/ChronesIO/chr-mem
