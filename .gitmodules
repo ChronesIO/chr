@@ -4,3 +4,6 @@
 [submodule "chr-mem"]
 	path = chr-mem
 	url = https://github.com/ChronesIO/chr-mem
+[submodule "chr-math"]
+	path = chr-math
+	url = https://github.com/ChronesIO/chr-math
