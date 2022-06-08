@@ -9,6 +9,8 @@ set_target_properties(chr PROPERTIES LINKER_LANGUAGE CXX)
 
 add_subdirectory(chr-core)
 add_subdirectory(chr-mem)
+add_subdirectory(chr-math)
 
 target_link_libraries(chr PUBLIC chr-core)
 target_link_libraries(chr-mem PRIVATE chr-core)
+target_link_libraries(chr-math PRIVATE chr-core)
