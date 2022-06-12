@@ -7,6 +7,8 @@ set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 add_library(chr src/chr)
 set_target_properties(chr PROPERTIES LINKER_LANGUAGE CXX)
 
+target_include_directories(chr PUBLIC src/)
+
 add_subdirectory(chr-core)
 add_subdirectory(chr-mem)
 add_subdirectory(chr-math)
