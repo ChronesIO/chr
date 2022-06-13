@@ -17,3 +17,4 @@ IndentWidth: 4
 TabWidth: 8
 UseTab: Never
 PointerAlignment: Left
+IndentCaseLabels: true
